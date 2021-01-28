@@ -1,0 +1,13 @@
+pycbc_geom_nonspinbank \
+--pn-order threePN \
+--f-low 20 \
+--f-upper 1024 \
+--delta-f 0.0001 \
+--min-match 0.97 \
+--min-mass1 0.1 \
+--min-mass2 0.1 \
+--max-mass1 1 \
+--max-mass2 1 \
+--verbose \
+--output-file ligobank.xml \
+--psd-model aLIGOZeroDetHighPower
